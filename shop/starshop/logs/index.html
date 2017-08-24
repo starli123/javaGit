@@ -1,0 +1,915 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Aug 24 19:36:08 GMT+08:00 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>82782</td>
+<td title="http-nio-80-exec-1 thread">http-nio-80-exec-1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:1048</td>
+<td title="Message">Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling</td>
+</tr>
+
+<tr>
+<td>82782</td>
+<td title="http-nio-80-exec-1 thread">http-nio-80-exec-1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:1000</td>
+<td title="Message">Successfully completed request</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:869</td>
+<td title="Message">DispatcherServlet with name 'dispatcherServlet' processing POST request for [/account/selectAreaListByCityCode]</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:310</td>
+<td title="Message">Looking up handler method for path /account/selectAreaListByCityCode</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:317</td>
+<td title="Message">Returning handler method [public java.lang.String com.zlkj.ssm.shop.web.controller.front.AccountAction.selectAreaListByCityCode() throws java.io.IOException]</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'frontAccountController'</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.cors.DefaultCorsProcessor category">org.springframework.web.cors.DefaultCorsProcessor</td>
+<td>DefaultCorsProcessor.java:77</td>
+<td title="Message">Skip CORS processing: request is from same origin</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1081</td>
+<td title="Message">selectAreaListByCityCode...</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1084</td>
+<td title="Message">selectAreaListByCityCode...provinceCode=420000,cityCode=420800</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1093</td>
+<td title="Message">areaInfo = Area [children=[Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]]</td>
+</tr>
+
+<tr>
+<td>87264</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1101</td>
+<td title="Message">jsonStr=[{&quot;children&quot;:[],&quot;code&quot;:&quot;420802&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16774&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;东宝区&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420804&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16772&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;掇刀区&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420821&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16817&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;京山县&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420822&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16815&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;沙洋县&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420881&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16581&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;钟祥市&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0}]</td>
+</tr>
+
+<tr>
+<td>87279</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor category">org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</td>
+<td>AbstractMessageConverterMethodProcessor.java:249</td>
+<td title="Message">Written [[{&quot;children&quot;:[],&quot;code&quot;:&quot;420802&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16774&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;东宝区&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420804&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16772&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;掇刀区&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420821&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16817&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;京山县&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420822&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16815&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;沙洋县&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0},{&quot;children&quot;:[],&quot;code&quot;:&quot;420881&quot;,&quot;draw&quot;:0,&quot;id&quot;:&quot;16581&quot;,&quot;list&quot;:[],&quot;name&quot;:&quot;钟祥市&quot;,&quot;offset&quot;:0,&quot;pageSize&quot;:20,&quot;pagerSize&quot;:0,&quot;pcode&quot;:&quot;420800&quot;,&quot;recordsFiltered&quot;:0,&quot;recordsTotal&quot;:0,&quot;total&quot;:0}]] as &quot;application/json&quot; using [org.springframework.http.converter.StringHttpMessageConverter@1434f2d5]</td>
+</tr>
+
+<tr>
+<td>87279</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:1048</td>
+<td title="Message">Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling</td>
+</tr>
+
+<tr>
+<td>87279</td>
+<td title="http-nio-80-exec-8 thread">http-nio-80-exec-8</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:1000</td>
+<td title="Message">Successfully completed request</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:869</td>
+<td title="Message">DispatcherServlet with name 'dispatcherServlet' processing POST request for [/account/selectAreaListByCityCode]</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:310</td>
+<td title="Message">Looking up handler method for path /account/selectAreaListByCityCode</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:317</td>
+<td title="Message">Returning handler method [public java.lang.String com.zlkj.ssm.shop.web.controller.front.AccountAction.selectAreaListByCityCode() throws java.io.IOException]</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'frontAccountController'</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.cors.DefaultCorsProcessor category">org.springframework.web.cors.DefaultCorsProcessor</td>
+<td>DefaultCorsProcessor.java:77</td>
+<td title="Message">Skip CORS processing: request is from same origin</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1081</td>
+<td title="Message">selectAreaListByCityCode...</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1084</td>
+<td title="Message">selectAreaListByCityCode...provinceCode=420000,cityCode=429004</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:1093</td>
+<td title="Message">areaInfo = Area [children=[Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]], Area [children=[]], Area [children=[]], Area [children=[]], Area [children=[]]]]</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor category">org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</td>
+<td>AbstractMessageConverterMethodProcessor.java:249</td>
+<td title="Message">Written [{}] as &quot;application/json&quot; using [org.springframework.http.converter.StringHttpMessageConverter@1434f2d5]</td>
+</tr>
+
+<tr>
+<td>92280</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:1048</td>
+<td title="Message">Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling</td>
+</tr>
+
+<tr>
+<td>92296</td>
+<td title="http-nio-80-exec-6 thread">http-nio-80-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:1000</td>
+<td title="Message">Successfully completed request</td>
+</tr>
+
+<tr>
+<td>94133</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:869</td>
+<td title="Message">DispatcherServlet with name 'dispatcherServlet' processing GET request for [/account/exit]</td>
+</tr>
+
+<tr>
+<td>94133</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:310</td>
+<td title="Message">Looking up handler method for path /account/exit</td>
+</tr>
+
+<tr>
+<td>94133</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:317</td>
+<td title="Message">Returning handler method [public java.lang.String com.zlkj.ssm.shop.web.controller.front.AccountAction.exit()]</td>
+</tr>
+
+<tr>
+<td>94134</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'frontAccountController'</td>
+</tr>
+
+<tr>
+<td>94134</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:955</td>
+<td title="Message">Last-Modified value for [/account/exit] is: -1</td>
+</tr>
+
+<tr>
+<td>94134</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.view.BeanNameViewResolver category">org.springframework.web.servlet.view.BeanNameViewResolver</td>
+<td>BeanNameViewResolver.java:74</td>
+<td title="Message">No matching bean found for view name 'redirect:/account/login'</td>
+</tr>
+
+<tr>
+<td>94135</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractAutowireCapableBeanFactory.java:1670</td>
+<td title="Message">Invoking afterPropertiesSet() on bean with name 'redirect:/account/login'</td>
+</tr>
+
+<tr>
+<td>94135</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>94135</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'</td>
+</tr>
+
+<tr>
+<td>94135</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:1280</td>
+<td title="Message">Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/account/login'; URL [/account/login]] in DispatcherServlet with name 'dispatcherServlet'</td>
+</tr>
+
+<tr>
+<td>94136</td>
+<td title="http-nio-80-exec-5 thread">http-nio-80-exec-5</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:1000</td>
+<td title="Message">Successfully completed request</td>
+</tr>
+
+<tr>
+<td>94140</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:869</td>
+<td title="Message">DispatcherServlet with name 'dispatcherServlet' processing GET request for [/account/login]</td>
+</tr>
+
+<tr>
+<td>94141</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:310</td>
+<td title="Message">Looking up handler method for path /account/login</td>
+</tr>
+
+<tr>
+<td>94141</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping category">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</td>
+<td>AbstractHandlerMethodMapping.java:317</td>
+<td title="Message">Returning handler method [public java.lang.String com.zlkj.ssm.shop.web.controller.front.AccountAction.login()]</td>
+</tr>
+
+<tr>
+<td>94142</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'frontAccountController'</td>
+</tr>
+
+<tr>
+<td>94142</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:955</td>
+<td title="Message">Last-Modified value for [/account/login] is: -1</td>
+</tr>
+
+<tr>
+<td>94142</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.zlkj.ssm.shop.web.controller.front.AccountAction category">com.zlkj.ssm.shop.web.controller.front.AccountAction</td>
+<td>AccountAction.java:322</td>
+<td title="Message">toLogin...</td>
+</tr>
+
+<tr>
+<td>94144</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.view.BeanNameViewResolver category">org.springframework.web.servlet.view.BeanNameViewResolver</td>
+<td>BeanNameViewResolver.java:74</td>
+<td title="Message">No matching bean found for view name '/account/login'</td>
+</tr>
+
+<tr>
+<td>94145</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractBeanFactory.java:251</td>
+<td title="Message">Returning cached instance of singleton bean 'freeMarkerConfigurer'</td>
+</tr>
+
+<tr>
+<td>94146</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td>AbstractAutowireCapableBeanFactory.java:1670</td>
+<td title="Message">Invoking afterPropertiesSet() on bean with name '/account/login'</td>
+</tr>
+
+<tr>
+<td>94146</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;account/login_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94147</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;account/login_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94148</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;account/login.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94148</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;account/login.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\account\login.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94148</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>DispatcherServlet.java:1280</td>
+<td title="Message">Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name '/account/login'; URL [/account/login.ftl]] in DispatcherServlet with name 'dispatcherServlet'</td>
+</tr>
+
+<tr>
+<td>94148</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.view.freemarker.FreeMarkerView category">org.springframework.web.servlet.view.freemarker.FreeMarkerView</td>
+<td>AbstractView.java:432</td>
+<td title="Message">Added model object 'request' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name '/account/login'</td>
+</tr>
+
+<tr>
+<td>94149</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.view.freemarker.FreeMarkerView category">org.springframework.web.servlet.view.freemarker.FreeMarkerView</td>
+<td>FreeMarkerView.java:280</td>
+<td title="Message">Rendering FreeMarker template [/account/login.ftl] in FreeMarkerView '/account/login'</td>
+</tr>
+
+<tr>
+<td>94149</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;account/login.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td>94149</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/i18n_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94150</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/i18n_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94150</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/i18n.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94150</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;import/i18n.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\import\i18n.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94151</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/common_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94151</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/common_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94151</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/common.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94151</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;import/common.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\import\common.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94152</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/env_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94152</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/env_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94152</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/env.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94153</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;import/env.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\import\env.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94153</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/keyvalue_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94154</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/keyvalue_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94154</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;import/keyvalue.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94162</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;import/keyvalue.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\import\keyvalue.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94162</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;import/common.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed) cached copy not yet stale; using cached.</td>
+</tr>
+
+<tr>
+<td>94163</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_html_front_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94163</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_html_front_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94164</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_html_front.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94164</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;common_html_front.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\common_html_front.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94165</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;indexMenu_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94165</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;indexMenu_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94165</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;indexMenu.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94165</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;indexMenu.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\indexMenu.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94167</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_css_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94167</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_css_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94168</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;common_css.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94168</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;common_css.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\common_css.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94170</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;advert/advert_login_page_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94172</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;advert/advert_login_page_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94190</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;advert/advert_login_page.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94191</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;advert/advert_login_page.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\advert\advert_login_page.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94192</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;foot_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94192</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;foot_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94192</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;foot.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94193</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;foot.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\foot.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94194</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;fixed_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94194</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;fixed_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94195</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;fixed.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94195</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;fixed.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\fixed.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94198</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;index_superSlide_js_zh_CN.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94199</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;index_superSlide_js_zh.ftl&quot;): Not found</td>
+</tr>
+
+<tr>
+<td>94199</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">TemplateLoader.findTemplateSource(&quot;index_superSlide_js.ftl&quot;): Found</td>
+</tr>
+
+<tr>
+<td>94199</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="freemarker.cache category">freemarker.cache</td>
+<td>_Log4jLoggerFactory.java:44</td>
+<td title="Message">&quot;index_superSlide_js.ftl&quot;(&quot;zh_CN&quot;, UTF-8, parsed): using cached since D:\EclipseWorkspace2\zlkjeeShop_v4\src\main\webapp\WEB-INF\templates\front\index_superSlide_js.ftl hasn't changed.</td>
+</tr>
+
+<tr>
+<td>94200</td>
+<td title="http-nio-80-exec-7 thread">http-nio-80-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.web.servlet.DispatcherServlet category">org.springframework.web.servlet.DispatcherServlet</td>
+<td>FrameworkServlet.java:1000</td>
+<td title="Message">Successfully completed request</td>
+</tr>
